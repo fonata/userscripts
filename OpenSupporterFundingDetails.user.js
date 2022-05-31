@@ -6,6 +6,7 @@
 // @author       Christian Bläul
 // @match        https://startnext-docker.lndo.site/*
 // @match        https://*.startnext.review/*
+// @match        https://test.startnext.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=startnext.com
 // @downloadURL  https://github.com/Fonata/userscripts/raw/master/OpenSupporterFundingDetails.user.js
 // @updateURL    https://github.com/Fonata/userscripts/raw/master/OpenSupporterFundingDetails.user.js
