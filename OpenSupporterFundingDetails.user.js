@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OpenSupporterFundingDetails
 // @namespace    https://blaeul.de
-// @version      0.1
+// @version      0.2
 // @description  Open funding details
 // @author       Christian Bläul
 // @match        https://startnext-docker.lndo.site/*
@@ -15,6 +15,8 @@
 
 (function() {
     'use strict';
+    if (typeof jQuery === 'undefined') return;
+
     function clickOnDetails() {
         jQuery('.support-card-open-text:visible').click();
     }
